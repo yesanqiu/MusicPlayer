@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/selectbg"
+        >
+        <View
+            android:id="@+id/red_left"
+            android:layout_width="5dp"
+            android:layout_height="70dp"
+            android:background="@color/red"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+
+            >
+
+
+        </View>
+
+        <ImageView
+            android:id="@+id/music_p"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_launcher_foreground"
+            >
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            >
+            <TextView
+                android:id="@+id/music_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="19sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/titleMain"
+                android:text="@string/musicName"
+                >
+
+            </TextView>
+            <TextView
+                android:id="@+id/singer"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/musicName"
+                android:textSize="15sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/titleF"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_music_list_icon_more"
+            android:background="@color/selectbg">
+
+        </ImageButton>
+    </LinearLayout>
+</LinearLayout>

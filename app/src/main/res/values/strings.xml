@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="localMusic">本地音乐</string>
+    <string name="lineMusic">在线音乐</string>
+    <string name="musicName">桥边姑娘</string>
+    <string name="playlist">播放列表</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="red">#f44235</color>
+    <color name="titleLight">#fafafa</color>
+    <color name="titleNoLight">#b6c1c6</color>
+    <color name="musicNameColor">#000000</color>
+    <color name="titleMain">#333333</color>
+    <color name="titleF">#666666</color>
+    <color name="selectbg">#fafafa</color>
+    <color name="playertitlebar">#50000000</color>
+    <color name="player">#20000000</color>
+</resources>
