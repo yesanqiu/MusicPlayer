@@ -67,6 +67,7 @@ public class OnlineMusicUtil {
             @Override
             public void onFailure(Call call, IOException e) {
                 System.out.println("请求失败");
+                e.printStackTrace();
             }
 
             @Override
